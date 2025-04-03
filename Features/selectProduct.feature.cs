@@ -82,7 +82,7 @@ namespace SauceDemo139.Features
                     "Loja"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Selecao de Produto com Sucesso", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 6
+#line 4
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -92,31 +92,31 @@ namespace SauceDemo139.Features
             else
             {
                 this.ScenarioStart();
-#line 7
+#line 5
         testRunner.Given("que acesso a página inicial do site", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
+#line 6
+        testRunner.When("preencho o usuário como \"standard_user\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+#line hidden
+#line 7
+        testRunner.And("a senha \"secret_sauce\" e clico no botao login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+#line hidden
 #line 8
-        testRunner.When("preencho o usuário como \"standard user\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
-#line hidden
-#line 9
-        testRunner.And("a senha \"sauce secret\" e clico no botao login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
-#line hidden
-#line 10
         testRunner.Then("exibe \"Products\" no titulo da secao", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
-#line 11
+#line 9
         testRunner.When("adiciono o produto \"Sauce Labs Backpack\" ao carrinho", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
-#line 12
+#line 10
         testRunner.And("clico no icone do carrinho de compras", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 13
+#line 11
         testRunner.Then("exibe a pagina do carrinho com a quantidade \"1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
-#line 14
+#line 12
         testRunner.And("nome do produto \"Sauce Labs Backpack\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
-#line 15
+#line 13
         testRunner.And("o preco como \"$29.99\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
             }
