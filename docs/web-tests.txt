@@ -10,3 +10,7 @@ Nível 2
 - .CS -- > passos da automação
 
 -Selenium com Page Objects / Page Factory
+3 tipos arquivos:
+- .cs --> mapeamento dos elementos de cada página
+- .feature --> descrição / critério de aceitação
+- .cs --> passos de automação
