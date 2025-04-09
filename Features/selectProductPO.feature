@@ -1,5 +1,5 @@
 #language: pt
-Funcionalidade: Selecionar Produto na Loja
+Funcionalidade: Selecionar Produto na Loja PO
     @PO
     Esquema do Cenario: Selecao de Produto com Sucesso PO
         Dado que acesso a página inicial do site PO
