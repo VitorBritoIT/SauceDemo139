@@ -16,9 +16,10 @@ namespace MyNamespace
         public StepDefinitions(ScenarioContext scenarioContext)
         {
             _scenarioContext = scenarioContext;
+            driver = (IWebDriver)_scenarioContext["driver"];
         }
 
-        [BeforeScenario]
+        //[BeforeScenario] // Comentado por ter feito o Hook
         public void SetUp()
         {
             // Instancia o ChromeDriver pelo WebDriverManager
@@ -28,7 +29,7 @@ namespace MyNamespace
             driver.Manage().Window.Maximize();
         }
         
-        [AfterScenario]
+        //[AfterScenario] // Comentado por ter feito o Hook
         public void TearDown()
         {
             driver.Quit(); //Encerrou o Selenium
